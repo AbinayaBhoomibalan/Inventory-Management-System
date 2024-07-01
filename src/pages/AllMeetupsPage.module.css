@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto 0; /* Center horizontally */
+    padding: 20px;
+    display: flex; /* Use flexbox */
+}
+  
+  .navLink {
+    text-decoration: none; /* Remove underline */
+    color: #412d35; /* Set text color */
+    font-size: 100px; /* Set font size */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .navLink:hover {
+    color: #fcb8d2; /* Change background color on hover */
+  }
